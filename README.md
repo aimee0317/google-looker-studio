@@ -1,19 +1,13 @@
 # E-commerce Website Analytics Dashboard with Google Looker Studio and Google Analytics 4
+- Author: Amelia Tang
 
 ## Project Overview 
-The dashboard below is designed using canva.com and implemented in Google Looker Studio (previously called "Google Data Studio") using data from Google Analytics 4.
+The website analytics dashboard below is for a used computer & electronic business that mainly operates locally in Vancouver but would like to grow its e-commerce presence.It's designed using canva.com and implemented in Google Looker Studio (previously called "Google Data Studio") using data from Google Analytics 4. As a certified Google Analytics professional, I would like to answer their business questions and help grow their online business. 
 
 ## Data Source 
-The e-commerce website is for a used computer and electronic store local to Vancouver. It has been a successful business but would like some online exposure. The data used in this data visualization project is from Google Analytics 4. I tagged the e-commerce website using Google Tag Manager and tracked website data for 2 months.
+The e-commerce website is for a used computer and electronic store local to Vancouver. It has been a successful business for decades but would like some online exposure. The data used in this data visualization project is from Google Analytics 4. I tagged the e-commerce website using Google Tag Manager and tracked website data for 2 months.
 
-## Proposal 
-While Google Analytics 4 offers dashboard customization features, I chose to import the Google Analytics 4 data into Google Looker Studio to build the dashboard for the following reasons: 
-- Google Looker Studio allows for more extensive customization options, enabling the creation of more complex and visually appealing dashboards.
-- Google Looker Studio offers advanced analytics features, including modeling, calculations, and data exploration, providing deeper insights into the data.
-However, an advantage of using the Google Analytics 4 dashboard is that it provides real-time data, whereas Looker Studio processes data in batches. It's important to note that real-time data might be beneficial for websites with highly frequent and time-sensitive activities. However, since the website's activities don't occur very frequently and the focus is on long-term business strategies, real-time data doesn't seem to be extremely necessary for this specific scenario.
-### Proposed metrics and graphs 
-#### Dashboard 1: 
-##### Business questions:
+## Business questions
 1. What is the volume of traffic on the website? 
 2. Do users find the content of the website engaging? Is it easy to engage with the website?
 3. How the sales are performing? 
@@ -23,6 +17,14 @@ However, an advantage of using the Google Analytics 4 dashboard is that it provi
 7. What is the age range of the users? Should we make any changes to the website to accommodate their age and make it easier for them?"
 8. Is it a good idea to offer shipping options to users outside the U.S. and Canada?
 9. What are some marketing efforts? Which ones are effective, and which ones are not? 
+
+## Proposal 
+While Google Analytics 4 offers dashboard customization features, I chose to import the Google Analytics 4 data into Google Looker Studio to build the dashboard for the following reasons: 
+- Google Looker Studio allows for more extensive customization options, enabling the creation of more complex and visually appealing dashboards.
+- Google Looker Studio offers advanced analytics features, including modeling, calculations, and data exploration, providing deeper insights into the data.
+However, an advantage of using the Google Analytics 4 dashboard is that it provides real-time data, whereas Looker Studio processes data in batches. It's important to note that real-time data might be beneficial for websites with highly frequent and time-sensitive activities. However, since the website's activities don't occur very frequently and the focus is on long-term business strategies, real-time data doesn't seem to be extremely necessary for this specific scenario.
+### Proposed metrics and graphs 
+#### Dashboard 1: 
 ##### Metrics: 
 - **Views**: In GA4, "views" refer to the total number of times a specific page or screen has been viewed. We would like to track the number of views of the website for the chosen time period and compare it to the same time in the previous period. To achieve this, we need a line graph and the percentage change number, which can be enabled in Google Looker Studio.
 - **Total users**: This metric represents the total number of unique users who have initiated at least one session on the website. We want to know how this number changes overtime in the chosen time period and how it compares to the last time period, so we need a line graph to show the changes over time as well as a percentage change comparing to the previous period (which is a feature we can turn on in Google Looker Studio). 
@@ -74,5 +76,6 @@ Since the products on the website are updated on a daily basis, we are keen on u
 
 ## Actionable Items  
 - Create more marketing channels, such as affiliate marketing or marketing newsletter, to improve overall traffic. 
-- Adjust the website to make it more mobile-friendly/adaptable as about 40% of the traffic comes from mobile devices. 
+- Adjust the website to make it more mobile-friendly/adaptable as about 40% of the traffic comes from mobile devices.
+- Improve the website's UI to include more 'call to action' elements and enhance conversion/conversion rate.
 - Optimize the Google Ads to reduce CPC (Cost Per Click).
