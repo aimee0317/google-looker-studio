@@ -14,14 +14,15 @@ However, an advantage of using the Google Analytics 4 dashboard is that it provi
 ### Proposed metrics and graphs 
 #### Dashboard 1: 
 ##### Business questions:
-1. What are the volume of traffic on the website? 
+1. What is the volume of traffic on the website? 
 2. Do users find the content of the website engaging? Is it easy to engage with the website?
 3. How the sales are performing? 
 4. How do customers / users find the website? 
-5. What are some most visited pages on the website?
-6. What is the age range of the users? Should we make any changes to the website to accommodate their age and make it easier for them?"\
-7. Is it a good idea to offer shipping options to users outside the U.S. and Canada?
-8. What are some marketing efforts? Which ones are effective, and which ones are not? 
+5. What devices do users use to access the website? Should the website be designed better for widely used devices? 
+6. What are some most visited pages on the website?
+7. What is the age range of the users? Should we make any changes to the website to accommodate their age and make it easier for them?"
+8. Is it a good idea to offer shipping options to users outside the U.S. and Canada?
+9. What are some marketing efforts? Which ones are effective, and which ones are not? 
 ##### Metrics: 
 - **Views**: In GA4, "views" refer to the total number of times a specific page or screen has been viewed. We would like to track the number of views of the website for the chosen time period and compare it to the same time in the previous period. To achieve this, we need a line graph and the percentage change number, which can be enabled in Google Looker Studio.
 - **Total users**: This metric represents the total number of unique users who have initiated at least one session on the website. We want to know how this number changes overtime in the chosen time period and how it compares to the last time period, so we need a line graph to show the changes over time as well as a percentage change comparing to the previous period (which is a feature we can turn on in Google Looker Studio). 
@@ -31,7 +32,7 @@ Since the products on the website are updated on a daily basis, we are keen on u
 - **Session default channel groups**: In GA4, these are predefined categories that classify the sources or channels from which traffic to the originates. These default channel groups are automatically assigned to sessions based on the source and medium of the traffic. We would like to know how users usually find the website and assess whether the Google Ads the company has implemented drive a substantial amount of traffic. 
 - **Interactivity**:
   - Device category: We want to see the difference in the above-mentioned metrics when traffic comes from desktop (traditional computers and laptops), tablets, or mobile devices. I have designed dropdown options to allow us to view the metrics based on the different devices users use.
-  - Data control: In GA4, default data refers to the automatically collected events and parameters that are sent by the Google Analytics measurement code (gtag.js) without the need for any additional configuration. We'd like to see the data source for the dashboards. 
+  - Default data: In GA4, default data refers to the automatically collected events and parameters that are sent by the Google Analytics measurement code (gtag.js) without the need for any additional configuration. We'd like to see the data source for the dashboards. 
   - Select date range: We would like to examine the data within custom time ranges for specific analyses. Therefore, I have implemented an option to select a customized date range.
   
 #### Dashboard 2: 
@@ -58,6 +59,20 @@ Since the products on the website are updated on a daily basis, we are keen on u
 ![final_dashboard1](dashboard2.jpg)
 
 ## Insights and Findings 
-- 
+| Business Questions | Answers            |
+| -------------------| ------------------ |
+| The volume of traffic on the website?  | It's low compared to large companies', but decent considering they are mostly operated locally.  |
+| The content of the website engaging?  | The engagement rate is about 60%. Yes, it is reasonably engaging.|
+| How the sales are performing?  | Online sales are lower than expected. |
+| What devices people use to access the website?   | About 60% desktop (including laptop) and about 40% mobile |
+| How do customers / users find the website?  | Mostly organic search through Google and Google Ads |
+| Most visited pages?  | Search for product page and the landing page |
+| What is the age range of the users?  | Mostly 18-34 so they are used to shopping online |
+| Offer shipping options to users outside the U.S. and Canada?  | Most views of the website are from Canada, with the second highest number of views coming from the U.S. It is not suggested to offer shipping options to other parts of the world due to the potential costs related to logistics and the need to modify the APIs/website. |
+| Most visited pages?  | Search for product page and the landing page |
+| Effective / Ineffective marketing efforts? | So far, they only run a Google Ads. The ads can be more optimized. |  
 
 ## Actionable Items  
+- Create more marketing channels, such as affiliate marketing or marketing newsletter, to improve overall traffic. 
+- Adjust the website to make it more mobile-friendly/adaptable as about 40% of the traffic comes from mobile devices. 
+- Optimize the Google Ads to reduce CPC (Cost Per Click).
