@@ -2,7 +2,7 @@
 - Author: Amelia Tang
 
 ## Project Overview 
-The website analytics dashboard below is for a used computer & electronic business that mainly operates locally in Vancouver but would like to grow its e-commerce presence.It's designed using canva.com and implemented in Google Looker Studio (previously called "Google Data Studio") using data from Google Analytics 4. As a certified Google Analytics professional, I would like to answer their business questions and help grow their online business. You can view my credentials [here](https://github.com/aimee0317/my_certifications).  
+The website analytics dashboard below is for a used computer & electronic business that mainly operates locally in Vancouver but would like to grow its e-commerce presence. It's designed using canva.com and implemented in Google Looker Studio (previously called "Google Data Studio") using data from Google Analytics 4. As a certified Google Analytics professional, I would like to answer their business questions and help grow their online business. You can view a list of my credentials [here](https://github.com/aimee0317/my_certifications).  
 
 ## Data Source 
 The e-commerce website is for a used computer and electronic store local to Vancouver. It has been a successful business for decades but would like some online exposure. The data used in this data visualization project is from Google Analytics 4. I tagged the e-commerce website using Google Tag Manager and tracked website data for 2 months.
